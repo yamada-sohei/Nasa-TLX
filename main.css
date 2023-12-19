@@ -1,0 +1,131 @@
+body{
+    font-family: "Helvetica Neue",
+      Arial,
+      "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans",
+      Meiryo,
+      sans-serif;
+    background-color: #f0f0f0;
+}
+
+.contents_area{
+    background-color:#FFF;
+}
+
+.pair_def{
+    font-size: 0.85em;
+}
+
+p{
+    font-size: 0.85em;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+input[type="range"] {
+	cursor: pointer;			/* カーソルを分かりやすく */
+	background: #8acdff;		/* バーの背景色 */
+	height: 14px;				/* バーの高さ */
+	width: 12cm;				/* スライダーの幅 */
+	border-radius: 10px;		/* バーの端の丸み */
+	border: solid 3px #dff1ff;	/* バーまわりの線 */
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.border{
+	border: solid 1px #333;
+}
+
+input[type="button"]{
+	width: 5cm;
+	height: 1cm;
+}
+
+.inner{
+    margin:30px;
+}
+
+.inner2{
+    padding:5px 20px;
+}
+
+.inner3{
+    padding:30px 40px;
+}
+
+.btn-flat-simple{
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: white;
+  background:#00bcd4;
+  transition: .4s;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+input .btn-flat-simple{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.btn-flat-simple:hover {
+  background: #ECECEC;
+  color: #00BCD4;
+}
+
+.std_button{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    background:#fff;
+    border: 2px solid #014897;
+    transition: .4s;
+    font-size: 1.0em;
+    cursor: pointer;
+    color: #004386;
+}
+
+.std_button:hover {
+    background-color: #e9f3fd;
+}
+
+#score{
+    background-color: #e9f3fd;
+    min-width: 400px;
+    min-height: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// リセットCSS（すでに指定済なら不要）
+* {
+  box-sizing: border-box;
+}
+
+.input-range {
+    height: 14px; // バーの高さ
+    width: 100%; // スライダーの幅
+  }
